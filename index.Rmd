@@ -1,18 +1,392 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
-
 ```{r}
-plot(cars)
+#I load the 2006 file from github
+Year1="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2006.csv"
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+#I import rio package for this file.
+YearOne = rio::import(file = Year1)
+```
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+```{r}
+#I load the 2007 file from github
+Year2="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2007.csv"
+```
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+#I import rio package for this file.
+YearTwo = rio::import(file = Year2)
+```
+
+```{r}
+#I load the 2008 file from github
+Year3="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2008.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearThree = rio::import(file = Year3)
+```
+
+```{r}
+#I load the 2009 file from github
+Year4="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2009.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearFour = rio::import(file = Year4)
+```
+
+```{r}
+#I load the 2010 file from github
+Year5="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2010.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearFive = rio::import(file = Year5)
+```
+
+
+```{r}
+#I load the 2011 file from github
+Year6="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2011.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearSix = rio::import(file = Year6)
+```
+
+
+```{r}
+#I load the 2012 file from github
+Year7="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2012.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearSeven = rio::import(file = Year7)
+```
+
+```{r}
+#I load the 2013 file from github
+Year8="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2013.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearEight = rio::import(file = Year8)
+```
+
+```{r}
+#I load the 2014 file from github
+Year9="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2014.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearNine = rio::import(file = Year9)
+```
+
+```{r}
+#I load the 2015 file from github
+Year10="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2015.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearTen = rio::import(file = Year10)
+```
+
+```{r}
+#I load the 2016 file from github
+Year11="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2016.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearEleven = rio::import(file = Year11)
+```
+
+```{r}
+#I load the 2017 file from github
+Year12="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2017.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearTwelve = rio::import(file = Year12)
+```
+
+```{r}
+#I load the 2018 file from github
+Year13="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2018.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearThirteen = rio::import(file = Year13)
+```
+
+```{r}
+#I load the 2019 file from github
+Year14="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2019.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearFourteen = rio::import(file = Year14)
+```
+
+```{r}
+#I load the 2020 file from github
+Year15="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2020.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearFifteen = rio::import(file = Year15)
+```
+
+
+```{r}
+#I load the 2021 file from github
+Year16="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2021.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearSixteen = rio::import(file = Year16)
+```
+
+```{r}
+#I load the 2022 file from github
+Year17="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2022-download.csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearSeventeen = rio::import(file = Year17)
+```
+
+```{r}
+#I load the 2023 file from github
+Year18="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/FSI-2023-DOWNLOAD%20(3).csv"
+```
+
+```{r}
+#I import rio package for this file.
+YearEighteen = rio::import(file = Year18)
+```
+
+```{r}
+#Using my dataframes under the Environment tab, I notice that Years 8, 10, 12, 14, 15, and 17 have a very high number of observations compared to other years. I take a look at the head for 8 to see what's going on. It appears normal.
+head(YearEight)
+```
+
+```{r}
+#I take a look at the tail for eight. I see many rows with NA. I will want to trim these out for all dataframes that include these.
+tail(YearEight)
+```
+```{r}
+#I keep only the rows with country information.
+YearEight_noNA=YearEight[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearEight_noNA)
+```
+
+```{r}
+#I keep only the rows with country information.
+YearTen_noNA=YearTen[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearTen_noNA)
+```
+
+```{r}
+#I keep only the rows with country information.
+YearTwelve_noNA=YearTwelve[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearTwelve_noNA)
+```
+```{r}
+#I keep only the rows with country information.
+YearThirteen_noNA=YearThirteen[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearThirteen_noNA)
+```
+
+```{r}
+#I keep only the rows with country information.
+YearFourteen_noNA=YearFourteen[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearFourteen_noNA)
+```
+```{r}
+#I keep only the rows with country information.
+YearFifteen_noNA=YearFifteen[1:178,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearFifteen_noNA)
+```
+
+```{r}
+#I keep only the rows with country information.
+YearSeventeen_noNA=YearSeventeen[1:179,]
+```
+
+```{r}
+#I confirm this works.
+tail(YearSeventeen_noNA)
+```
+
+```{r}
+#Using my dataframes in the Environment tab, I notice that Years 14, 15, and 17 include columns I do not want. I pull a list of column names, numbered, for Year 14. 
+names(YearFourteen_noNA)
+```
+
+```{r}
+#I create a new version of Year Fourteen, with just the columns I want to keep.
+YearFourteen_new <- YearFourteen_noNA[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)]
+```
+
+```{r}
+#I check that Year Fourteen is now how I want it to appear. 
+names(YearFourteen_new)
+```
+
+```{r}
+#I pull a list of column names, numbered, for Year 15. 
+names(YearFifteen_noNA)
+```
+
+```{r}
+#I create a new version of Year Fifteen, with just the columns I want to keep.
+YearFifteen_new <- YearFifteen_noNA[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)]
+```
+
+```{r}
+#I check that Year Fifteen is now how I want it to appear. 
+names(YearFifteen_new)
+```
+
+```{r}
+#I pull a list of column names, numbered, for Year 17. 
+names(YearSeventeen_noNA)
+```
+
+```{r}
+#I create a new version of Year Seventeen, with just the columns I want to keep.
+YearSeventeen_new <- YearSeventeen_noNA[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)]
+```
+
+```{r}
+#I check that Year Seventeen is now how I want it to appear. 
+names(YearSeventeen_new)
+```
+```{r}
+#I tried to combine my data but received an Error that column names do not match across all sheets. I identify that YearEight_noNA has extra periods in the column names.
+colnames(YearEight_noNA) <- c("Country", "Year", "Rank", "Total", "C1: Security Apparatus", "C2: Factionalized Elites", "C3: Group Grievance", "E1: Economy", "E2: Economic Inequality", "E3: Human Flight and Brain Drain", "P1: State Legitimacy", "P2: Public Services", "P3: Human Rights", "S1: Demographic Pressures", "S2: Refugees and IDPs", "X1: External Intervention")
+```
+
+```{r}
+#I check it. 
+names(YearEight_noNA)
+```
+```{r}
+#Now that I've removed blank rows and my columns match across all years in all spreadsheets, I vertically combine my data.
+YearsCombined <- rbind(YearOne, YearTwo, YearThree, YearFour, YearFive, YearSix, YearSeven, YearEight_noNA, YearNine, YearTen_noNA, YearEleven, YearTwelve_noNA, YearThirteen_noNA, YearFourteen_new, YearFifteen_new, YearSixteen, YearSeventeen_new, YearEighteen)
+```
+
+```{r}
+#I check the overall information about YearsCombined, including number of observations and variables appearing correct. I check the columns format.
+str(YearsCombined)
+```
+
+```{r}
+#I notice Rank is being categorized as character, not integer, and I want to correct this. 
+YearsCombined$Rank <- as.integer(gsub("[^0-9-]", "", YearsCombined$Rank))
+```
+
+```{r}
+#I check that my change applied correctly. I also confirm that Year is correctly identified as integer.
+str(YearsCombined)
+```
+
+```{r call_ggplot2, eval=TRUE, echo=TRUE, message=FALSE}
+#Now I'm ready to start analyzing my 2006-2023 data. I want to plot the 'Total' Variable per year, using boxplots in ggplot2. I need to install ggplot2. 
+library(ggplot2)
+```
+
+```{r gg_base, eval=TRUE, echo=TRUE, message=FALSE}
+#I tell ggplot the data I will want to use. 
+base=ggplot(data=YearsCombined)
+```
+
+```{r gg_geom_aes, eval=TRUE, echo=FALSE, message=FALSE}
+#I add the geom. 
+base + geom_boxplot(aes(x=Total, y=Year))
+```
+
+```{r}
+#For the next exercise, I want only 2013 and 2023 data. I combine these two datasets
+TwoYearsCombined <- rbind(YearEight_noNA, YearEighteen)
+```
+
+```{r}
+#I confirm it appears as expected. 
+str(TwoYearsCombined)
+```
+
+```{r}
+#I check column names in TwoYearsCombined.
+names(TwoYearsCombined)
+```
+
+```{r}
+#I remove many of the columns I do not need
+TwoYearsCombined_clean <- TwoYearsCombined[ , -c(8,9,10,11,12,13,14,15,16)]
+```
+
+```{r}
+#I confirm my subset.
+str(TwoYearsCombined_clean)
+```
+
+```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
+#I apply faceting.  
+base2=ggplot(data=TwoYearsCombined_clean)
+base2 + geom_histogram(aes(x=Year), bins=10) +
+  facet_wrap(vars~., scales = "Free", ncol=1)
+```
+
+
+
+In all plots, add all the text needed to explain the visual result.
+
+On Github, publish the code and the output file. Publish the code using GitHub pages. The last week reinforced how to publish, it is not only create html on RStudio. Follow the steps shared on the previous session.
