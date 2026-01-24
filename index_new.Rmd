@@ -5,6 +5,13 @@ output:
     df_print: paged
 ---
 
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
 ```{r}
 #I load the 2006 file from github
 Year1="https://github.com/Fundamentals-Sarah/HW5Repo1/raw/refs/heads/main/fsi-2006.csv"
@@ -357,6 +364,7 @@ YearsCombinedCSV=read.csv("YearsCombined.csv")
 #I check that the cleaned csv can be read in correctly
 str(YearsCombinedCSV)
 ```
+
 ```{r}
 #I create a subset of YearsCombined. 
 Combined_subset <- YearsCombined
@@ -369,31 +377,42 @@ Combined_subset <- Combined_subset[, c(1,2,4)]
 ```
 
 ```{r}
+#I check that the right columns are still included.
 str(Combined_subset)
 ```
+
 ```{r}
+#I make the year variable a factor variable.
 Combined_subset$Year <- factor(Combined_subset$Year)
 ```
 
 ```{r}
+#I check that Year is now a factor variable.
 str(Combined_subset)
 ```
+
 ```{r}
+#I install and load ggplot. When I went to Knit, I kept getting an error; I consulted Google Collab, which is how I got the code below for CRAN.
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 install.packages("ggplot2")
+```
+
+```{r}
+#I load ggplot library.
 library(ggplot2)
 ```
 
-```{r gg_base, eval=TRUE, echo=FALSE, message=FALSE}
+```{r gg_base, eval=TRUE, echo=TRUE, message=FALSE}
 #I tell ggplot the data I will want to use. 
 base=ggplot(data=Combined_subset)
 ```
 
-```{r byyear, eval=TRUE, echo=FALSE, message=FALSE}
+```{r byyear, eval=TRUE, echo=TRUE, message=FALSE}
 #I add the geom. 
 base + geom_boxplot(aes(x=Year, y=Total))
 ```
 
-```{r text_forplot, eval=TRUE, echo=FALSE, message=FALSE}
+```{r text_forplot, eval=TRUE, echo=TRUE, message=FALSE}
 #I generate and assign a title, subtitle, and caption to my boxplot.
 theTitle='Fragility Index Total Per Year'
 theSubtitle='All countries, 2006-2023'
@@ -446,6 +465,7 @@ str(TwoYears_subset)
 
 
 ```{r}
+#I take my two years of data and transform it into the LONG format.
 TwoYears_long=tidyr::pivot_longer(TwoYears_subset,
                                        cols = c(Security, Elites, Grievance),
                                        names_to = "var",
