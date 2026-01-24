@@ -1,0 +1,1072 @@
+"Country","Year","var","index"
+"Somalia","2013","Security",9.7
+"Somalia","2013","Elites",10
+"Somalia","2013","Grievance",9.3
+"Congo Democratic Republic","2013","Security",10
+"Congo Democratic Republic","2013","Elites",9.5
+"Congo Democratic Republic","2013","Grievance",9.4
+"Sudan","2013","Security",9.8
+"Sudan","2013","Elites",10
+"Sudan","2013","Grievance",10
+"South Sudan","2013","Security",9.6
+"South Sudan","2013","Elites",9.8
+"South Sudan","2013","Grievance",10
+"Chad","2013","Security",9.4
+"Chad","2013","Elites",9.5
+"Chad","2013","Grievance",8.8
+"Yemen","2013","Security",9.8
+"Yemen","2013","Elites",9.5
+"Yemen","2013","Grievance",9
+"Afghanistan","2013","Security",9.9
+"Afghanistan","2013","Elites",9.4
+"Afghanistan","2013","Grievance",9.2
+"Haiti","2013","Security",7.9
+"Haiti","2013","Elites",9
+"Haiti","2013","Grievance",7
+"Central African Republic","2013","Security",9.7
+"Central African Republic","2013","Elites",9.1
+"Central African Republic","2013","Grievance",8.5
+"Zimbabwe","2013","Security",8.4
+"Zimbabwe","2013","Elites",9.7
+"Zimbabwe","2013","Grievance",8.4
+"Iraq","2013","Security",10
+"Iraq","2013","Elites",9.6
+"Iraq","2013","Grievance",10
+"Cote d'Ivoire","2013","Security",9.1
+"Cote d'Ivoire","2013","Elites",9.4
+"Cote d'Ivoire","2013","Grievance",9
+"Pakistan","2013","Security",9.8
+"Pakistan","2013","Elites",9.2
+"Pakistan","2013","Grievance",9.7
+"Guinea","2013","Security",9.1
+"Guinea","2013","Elites",8.9
+"Guinea","2013","Grievance",7.6
+"Guinea Bissau","2013","Security",9.5
+"Guinea Bissau","2013","Elites",9.7
+"Guinea Bissau","2013","Grievance",5.7
+"Nigeria","2013","Security",9.5
+"Nigeria","2013","Elites",9.4
+"Nigeria","2013","Grievance",9.8
+"Kenya","2013","Security",8.1
+"Kenya","2013","Elites",9
+"Kenya","2013","Grievance",9
+"Niger","2013","Security",8.3
+"Niger","2013","Elites",8.9
+"Niger","2013","Grievance",7.8
+"Ethiopia","2013","Security",8.4
+"Ethiopia","2013","Elites",8.7
+"Ethiopia","2013","Grievance",8.6
+"Burundi","2013","Security",7.7
+"Burundi","2013","Elites",7.9
+"Burundi","2013","Grievance",8.1
+"Syria","2013","Security",9.8
+"Syria","2013","Elites",9.2
+"Syria","2013","Grievance",9.3
+"Uganda","2013","Security",8.2
+"Uganda","2013","Elites",8.6
+"Uganda","2013","Grievance",8
+"Liberia","2013","Security",7.1
+"Liberia","2013","Elites",8.3
+"Liberia","2013","Grievance",6.5
+"North Korea","2013","Security",8.4
+"North Korea","2013","Elites",7.7
+"North Korea","2013","Grievance",6.6
+"Eritrea","2013","Security",7.5
+"Eritrea","2013","Elites",8.1
+"Eritrea","2013","Grievance",6.1
+"Myanmar","2013","Security",7.8
+"Myanmar","2013","Elites",8.6
+"Myanmar","2013","Grievance",9
+"Cameroon","2013","Security",8
+"Cameroon","2013","Elites",9.2
+"Cameroon","2013","Grievance",7.8
+"Sri Lanka","2013","Security",8.5
+"Sri Lanka","2013","Elites",9.3
+"Sri Lanka","2013","Grievance",9.5
+"Bangladesh","2013","Security",7.7
+"Bangladesh","2013","Elites",8.9
+"Bangladesh","2013","Grievance",8.6
+"Nepal","2013","Security",7.6
+"Nepal","2013","Elites",8.2
+"Nepal","2013","Grievance",9
+"Mauritania","2013","Security",7.8
+"Mauritania","2013","Elites",8.2
+"Mauritania","2013","Grievance",7.2
+"Timor-Leste","2013","Security",8.3
+"Timor-Leste","2013","Elites",8.3
+"Timor-Leste","2013","Grievance",6.8
+"Sierra Leone","2013","Security",5.4
+"Sierra Leone","2013","Elites",7.9
+"Sierra Leone","2013","Grievance",5.9
+"Egypt","2013","Security",7.3
+"Egypt","2013","Elites",8.7
+"Egypt","2013","Grievance",8.5
+"Burkina Faso","2013","Security",7.2
+"Burkina Faso","2013","Elites",7.3
+"Burkina Faso","2013","Grievance",5.3
+"Congo Republic","2013","Security",6.7
+"Congo Republic","2013","Elites",6.7
+"Congo Republic","2013","Grievance",6
+"Iran","2013","Security",8.6
+"Iran","2013","Elites",9.4
+"Iran","2013","Grievance",8.8
+"Mali","2013","Security",8.1
+"Mali","2013","Elites",5
+"Mali","2013","Grievance",7.6
+"Rwanda","2013","Security",5.5
+"Rwanda","2013","Elites",8.2
+"Rwanda","2013","Grievance",8.2
+"Malawi","2013","Security",5
+"Malawi","2013","Elites",7.6
+"Malawi","2013","Grievance",5.7
+"Cambodia","2013","Security",6.2
+"Cambodia","2013","Elites",8
+"Cambodia","2013","Grievance",7
+"Togo","2013","Security",7.4
+"Togo","2013","Elites",7.5
+"Togo","2013","Grievance",4.8
+"Angola","2013","Security",6.1
+"Angola","2013","Elites",7.3
+"Angola","2013","Grievance",6.8
+"Uzbekistan","2013","Security",7.9
+"Uzbekistan","2013","Elites",8.7
+"Uzbekistan","2013","Grievance",7.5
+"Zambia","2013","Security",5
+"Zambia","2013","Elites",5.7
+"Zambia","2013","Grievance",6
+"Lebanon","2013","Security",8.5
+"Lebanon","2013","Elites",9.2
+"Lebanon","2013","Grievance",8.5
+"Equatorial Guinea","2013","Security",7.5
+"Equatorial Guinea","2013","Elites",8.2
+"Equatorial Guinea","2013","Grievance",6.6
+"Kyrgyz Republic","2013","Security",7.4
+"Kyrgyz Republic","2013","Elites",8
+"Kyrgyz Republic","2013","Grievance",8.4
+"Swaziland","2013","Security",6
+"Swaziland","2013","Elites",7
+"Swaziland","2013","Grievance",3.6
+"Djibouti","2013","Security",6.6
+"Djibouti","2013","Elites",7.5
+"Djibouti","2013","Grievance",6.2
+"Solomon Islands","2013","Security",6.7
+"Solomon Islands","2013","Elites",8
+"Solomon Islands","2013","Grievance",6.8
+"Tajikistan","2013","Security",7.4
+"Tajikistan","2013","Elites",8.3
+"Tajikistan","2013","Grievance",6.7
+"Papua New Guinea","2013","Security",6.6
+"Papua New Guinea","2013","Elites",7.1
+"Papua New Guinea","2013","Grievance",6.6
+"Libya","2013","Security",8.9
+"Libya","2013","Elites",8
+"Libya","2013","Grievance",7.4
+"Georgia","2013","Security",7.9
+"Georgia","2013","Elites",9.4
+"Georgia","2013","Grievance",8
+"Comoros","2013","Security",7.5
+"Comoros","2013","Elites",7.5
+"Comoros","2013","Grievance",5.3
+"Colombia","2013","Security",6.8
+"Colombia","2013","Elites",7.7
+"Colombia","2013","Grievance",7.5
+"Laos","2013","Security",6.6
+"Laos","2013","Elites",8.3
+"Laos","2013","Grievance",6.1
+"Mozambique","2013","Security",6.5
+"Mozambique","2013","Elites",5.6
+"Mozambique","2013","Grievance",4.9
+"Philippines","2013","Security",8.7
+"Philippines","2013","Elites",8
+"Philippines","2013","Grievance",7.9
+"Madagascar","2013","Security",7
+"Madagascar","2013","Elites",7.5
+"Madagascar","2013","Grievance",4.9
+"Bhutan","2013","Security",5.6
+"Bhutan","2013","Elites",7.5
+"Bhutan","2013","Grievance",7.3
+"Gambia","2013","Security",5.5
+"Gambia","2013","Elites",6.8
+"Gambia","2013","Grievance",3.7
+"Senegal","2013","Security",6.2
+"Senegal","2013","Elites",6.6
+"Senegal","2013","Grievance",6.3
+"Tanzania","2013","Security",5.5
+"Tanzania","2013","Elites",5.7
+"Tanzania","2013","Grievance",6
+"China","2013","Security",6.5
+"China","2013","Elites",7.2
+"China","2013","Grievance",8.3
+"Bolivia","2013","Security",6.7
+"Bolivia","2013","Elites",8
+"Bolivia","2013","Grievance",7.1
+"Fiji","2013","Security",7
+"Fiji","2013","Elites",7.9
+"Fiji","2013","Grievance",7.3
+"Israel and West Bank","2013","Security",7.1
+"Israel and West Bank","2013","Elites",8.1
+"Israel and West Bank","2013","Grievance",9.8
+"Guatemala","2013","Security",7
+"Guatemala","2013","Elites",6
+"Guatemala","2013","Grievance",7.3
+"Lesotho","2013","Security",5.2
+"Lesotho","2013","Elites",7
+"Lesotho","2013","Grievance",4.7
+"Nicaragua","2013","Security",5.6
+"Nicaragua","2013","Elites",6.8
+"Nicaragua","2013","Grievance",5.9
+"Algeria","2013","Security",7.4
+"Algeria","2013","Elites",7.3
+"Algeria","2013","Grievance",7.8
+"Ecuador","2013","Security",6.7
+"Ecuador","2013","Elites",8.2
+"Ecuador","2013","Grievance",7.2
+"Honduras","2013","Security",6.8
+"Honduras","2013","Elites",6.3
+"Honduras","2013","Grievance",5.8
+"Azerbaijan","2013","Security",6.9
+"Azerbaijan","2013","Elites",7.8
+"Azerbaijan","2013","Grievance",6.9
+"Indonesia","2013","Security",6.8
+"Indonesia","2013","Elites",7
+"Indonesia","2013","Grievance",7.3
+"Benin","2013","Security",5.8
+"Benin","2013","Elites",6.1
+"Benin","2013","Grievance",3.6
+"India","2013","Security",7.8
+"India","2013","Elites",6.8
+"India","2013","Grievance",8.2
+"Russia","2013","Security",8.5
+"Russia","2013","Elites",8
+"Russia","2013","Grievance",8.2
+"Belarus","2013","Security",6.3
+"Belarus","2013","Elites",8.3
+"Belarus","2013","Grievance",6.8
+"Turkmenistan","2013","Security",7.1
+"Turkmenistan","2013","Elites",7.7
+"Turkmenistan","2013","Grievance",6.7
+"Bosnia and Herzegovina","2013","Security",6.4
+"Bosnia and Herzegovina","2013","Elites",8.7
+"Bosnia and Herzegovina","2013","Grievance",7.7
+"Moldova","2013","Security",7.2
+"Moldova","2013","Elites",7.7
+"Moldova","2013","Grievance",6
+"Tunisia","2013","Security",7.2
+"Tunisia","2013","Elites",7.8
+"Tunisia","2013","Grievance",7.8
+"Turkey","2013","Security",7.9
+"Turkey","2013","Elites",7.3
+"Turkey","2013","Grievance",9
+"Jordan","2013","Security",5.8
+"Jordan","2013","Elites",6.8
+"Jordan","2013","Grievance",7.1
+"Maldives","2013","Security",5.8
+"Maldives","2013","Elites",8
+"Maldives","2013","Grievance",4.9
+"Venezuela","2013","Security",6.5
+"Venezuela","2013","Elites",7.3
+"Venezuela","2013","Grievance",6.4
+"Thailand","2013","Security",7.8
+"Thailand","2013","Elites",8.8
+"Thailand","2013","Grievance",8.1
+"Sao Tome and Principe","2013","Security",5.8
+"Sao Tome and Principe","2013","Elites",6.3
+"Sao Tome and Principe","2013","Grievance",4.8
+"Serbia","2013","Security",6.5
+"Serbia","2013","Elites",8
+"Serbia","2013","Grievance",8
+"Morocco","2013","Security",6.3
+"Morocco","2013","Elites",6.6
+"Morocco","2013","Grievance",6.5
+"Cape Verde","2013","Security",5.7
+"Cape Verde","2013","Elites",5.5
+"Cape Verde","2013","Grievance",4.2
+"Dominican Republic","2013","Security",5.2
+"Dominican Republic","2013","Elites",6.5
+"Dominican Republic","2013","Grievance",6.1
+"El Salvador","2013","Security",6.4
+"El Salvador","2013","Elites",4.3
+"El Salvador","2013","Grievance",5.7
+"Mexico","2013","Security",7.9
+"Mexico","2013","Elites",5.2
+"Mexico","2013","Grievance",6.1
+"Vietnam","2013","Security",5.4
+"Vietnam","2013","Elites",6.9
+"Vietnam","2013","Grievance",5.7
+"Gabon","2013","Security",5.4
+"Gabon","2013","Elites",7.1
+"Gabon","2013","Grievance",3.3
+"Micronesia","2013","Security",5.4
+"Micronesia","2013","Elites",5.6
+"Micronesia","2013","Grievance",4.2
+"Cuba","2013","Security",6.3
+"Cuba","2013","Elites",6.9
+"Cuba","2013","Grievance",4.8
+"Saudi Arabia","2013","Security",7.2
+"Saudi Arabia","2013","Elites",8
+"Saudi Arabia","2013","Grievance",7.4
+"Peru","2013","Security",7
+"Peru","2013","Elites",6.7
+"Peru","2013","Grievance",7
+"Paraguay","2013","Security",6.1
+"Paraguay","2013","Elites",7.9
+"Paraguay","2013","Grievance",6.5
+"Armenia","2013","Security",5.3
+"Armenia","2013","Elites",7
+"Armenia","2013","Grievance",5.7
+"Suriname","2013","Security",5.8
+"Suriname","2013","Elites",5.8
+"Suriname","2013","Grievance",6.1
+"Guyana","2013","Security",5.8
+"Guyana","2013","Elites",5.1
+"Guyana","2013","Grievance",5.9
+"Namibia","2013","Security",4.9
+"Namibia","2013","Elites",3.5
+"Namibia","2013","Grievance",5.3
+"Kazakhstan","2013","Security",6.4
+"Kazakhstan","2013","Elites",7.7
+"Kazakhstan","2013","Grievance",6.2
+"Ghana","2013","Security",3.8
+"Ghana","2013","Elites",5
+"Ghana","2013","Grievance",4.9
+"Samoa","2013","Security",5.5
+"Samoa","2013","Elites",5.1
+"Samoa","2013","Grievance",4.8
+"Macedonia","2013","Security",6
+"Macedonia","2013","Elites",7
+"Macedonia","2013","Grievance",7.8
+"South Africa","2013","Security",5.1
+"South Africa","2013","Elites",5.6
+"South Africa","2013","Grievance",5.7
+"Belize","2013","Security",5.5
+"Belize","2013","Elites",4.3
+"Belize","2013","Grievance",4.4
+"Cyprus","2013","Security",5
+"Cyprus","2013","Elites",7.9
+"Cyprus","2013","Grievance",7.3
+"Malaysia","2013","Security",6
+"Malaysia","2013","Elites",6.8
+"Malaysia","2013","Grievance",6.1
+"Ukraine","2013","Security",4.4
+"Ukraine","2013","Elites",8
+"Ukraine","2013","Grievance",5.9
+"Jamaica","2013","Security",6.3
+"Jamaica","2013","Elites",3.7
+"Jamaica","2013","Grievance",4
+"Albania","2013","Security",5.5
+"Albania","2013","Elites",6.3
+"Albania","2013","Grievance",4.8
+"Grenada","2013","Security",5.3
+"Grenada","2013","Elites",5.6
+"Grenada","2013","Grievance",3.9
+"Botswana","2013","Security",3.5
+"Botswana","2013","Elites",3.3
+"Botswana","2013","Grievance",4.8
+"Seychelles","2013","Security",6.4
+"Seychelles","2013","Elites",5.7
+"Seychelles","2013","Grievance",4.8
+"Brunei Darussalam","2013","Security",5.6
+"Brunei Darussalam","2013","Elites",7.4
+"Brunei Darussalam","2013","Grievance",6.2
+"Bahrain","2013","Security",6.1
+"Bahrain","2013","Elites",7.1
+"Bahrain","2013","Grievance",7.3
+"Trinidad and Tobago","2013","Security",5.7
+"Trinidad and Tobago","2013","Elites",5.6
+"Trinidad and Tobago","2013","Grievance",4.4
+"Brazil","2013","Security",5.9
+"Brazil","2013","Elites",4.9
+"Brazil","2013","Grievance",5.9
+"Kuwait","2013","Security",4.4
+"Kuwait","2013","Elites",7.9
+"Kuwait","2013","Grievance",4.6
+"Antigua and Barbuda","2013","Security",4.9
+"Antigua and Barbuda","2013","Elites",3.7
+"Antigua and Barbuda","2013","Grievance",4.1
+"Mongolia","2013","Security",4.4
+"Mongolia","2013","Elites",5.5
+"Mongolia","2013","Grievance",3.7
+"Romania","2013","Security",4.1
+"Romania","2013","Elites",5.2
+"Romania","2013","Grievance",6.3
+"Panama","2013","Security",5.1
+"Panama","2013","Elites",2.5
+"Panama","2013","Grievance",5
+"Bulgaria","2013","Security",4.7
+"Bulgaria","2013","Elites",5.3
+"Bulgaria","2013","Grievance",4.6
+"Bahamas","2013","Security",4.3
+"Bahamas","2013","Elites",4.5
+"Bahamas","2013","Grievance",4.4
+"Montenegro","2013","Security",4.6
+"Montenegro","2013","Elites",6.2
+"Montenegro","2013","Grievance",6.5
+"Croatia","2013","Security",4.8
+"Croatia","2013","Elites",4.4
+"Croatia","2013","Grievance",5.3
+"Oman","2013","Security",5.3
+"Oman","2013","Elites",6.6
+"Oman","2013","Grievance",2.7
+"Barbados","2013","Security",4.2
+"Barbados","2013","Elites",4.2
+"Barbados","2013","Grievance",4.4
+"Greece","2013","Security",3.9
+"Greece","2013","Elites",3
+"Greece","2013","Grievance",4.8
+"Costa Rica","2013","Security",2.5
+"Costa Rica","2013","Elites",3.8
+"Costa Rica","2013","Grievance",4.1
+"Latvia","2013","Security",3.3
+"Latvia","2013","Elites",4.3
+"Latvia","2013","Grievance",5.4
+"Hungary","2013","Security",2.3
+"Hungary","2013","Elites",4.8
+"Hungary","2013","Grievance",4.1
+"United Arab Emirates","2013","Security",2.9
+"United Arab Emirates","2013","Elites",3.6
+"United Arab Emirates","2013","Grievance",4.3
+"Qatar","2013","Security",2.5
+"Qatar","2013","Elites",5
+"Qatar","2013","Grievance",4.9
+"Argentina","2013","Security",3
+"Argentina","2013","Elites",2.7
+"Argentina","2013","Grievance",5
+"Estonia","2013","Security",2.9
+"Estonia","2013","Elites",5.5
+"Estonia","2013","Grievance",5.9
+"Slovak Republic","2013","Security",2.3
+"Slovak Republic","2013","Elites",3.7
+"Slovak Republic","2013","Grievance",5
+"Italy","2013","Security",5
+"Italy","2013","Elites",4.8
+"Italy","2013","Grievance",4.7
+"Mauritius","2013","Security",3.3
+"Mauritius","2013","Elites",3.2
+"Mauritius","2013","Grievance",3.5
+"Spain","2013","Security",4.1
+"Spain","2013","Elites",6
+"Spain","2013","Grievance",5.8
+"Lithuania","2013","Security",2.5
+"Lithuania","2013","Elites",3
+"Lithuania","2013","Grievance",3.7
+"Malta","2013","Security",3.7
+"Malta","2013","Elites",2
+"Malta","2013","Grievance",4
+"Chile","2013","Security",2.9
+"Chile","2013","Elites",1.4
+"Chile","2013","Grievance",3.5
+"Poland","2013","Security",2.5
+"Poland","2013","Elites",3.6
+"Poland","2013","Grievance",3.8
+"Czech Republic","2013","Security",2.1
+"Czech Republic","2013","Elites",4.2
+"Czech Republic","2013","Grievance",3.8
+"Uruguay","2013","Security",3.7
+"Uruguay","2013","Elites",2.7
+"Uruguay","2013","Grievance",2.8
+"Japan","2013","Security",1.7
+"Japan","2013","Elites",2.6
+"Japan","2013","Grievance",3.8
+"South Korea","2013","Security",2.1
+"South Korea","2013","Elites",3.6
+"South Korea","2013","Grievance",3.1
+"Singapore","2013","Security",1.5
+"Singapore","2013","Elites",4
+"Singapore","2013","Grievance",2.7
+"United States","2013","Security",2.2
+"United States","2013","Elites",3.9
+"United States","2013","Grievance",4.2
+"United Kingdom","2013","Security",2.7
+"United Kingdom","2013","Elites",3.5
+"United Kingdom","2013","Grievance",5
+"France","2013","Security",2.3
+"France","2013","Elites",1.9
+"France","2013","Grievance",5.9
+"Portugal","2013","Security",1.6
+"Portugal","2013","Elites",1.3
+"Portugal","2013","Grievance",2.3
+"Slovenia","2013","Security",2.5
+"Slovenia","2013","Elites",1.6
+"Slovenia","2013","Grievance",3.3
+"Belgium","2013","Security",2
+"Belgium","2013","Elites",3.9
+"Belgium","2013","Grievance",4.1
+"Germany","2013","Security",2.2
+"Germany","2013","Elites",2
+"Germany","2013","Grievance",4.3
+"Austria","2013","Security",1.1
+"Austria","2013","Elites",2.7
+"Austria","2013","Grievance",4.3
+"Netherlands","2013","Security",1.8
+"Netherlands","2013","Elites",2.6
+"Netherlands","2013","Grievance",4.1
+"Canada","2013","Security",1.8
+"Canada","2013","Elites",2.5
+"Canada","2013","Grievance",3.1
+"Australia","2013","Security",1.7
+"Australia","2013","Elites",1.6
+"Australia","2013","Grievance",3.6
+"Ireland","2013","Security",1.8
+"Ireland","2013","Elites",1.3
+"Ireland","2013","Grievance",1.6
+"Iceland","2013","Security",1
+"Iceland","2013","Elites",1.8
+"Iceland","2013","Grievance",1
+"Luxembourg","2013","Security",2.3
+"Luxembourg","2013","Elites",3.4
+"Luxembourg","2013","Grievance",2.8
+"New Zealand","2013","Security",1.1
+"New Zealand","2013","Elites",1.1
+"New Zealand","2013","Grievance",3.5
+"Denmark","2013","Security",1.5
+"Denmark","2013","Elites",1.4
+"Denmark","2013","Grievance",3.4
+"Norway","2013","Security",2.7
+"Norway","2013","Elites",1.1
+"Norway","2013","Grievance",3.6
+"Switzerland","2013","Security",1.4
+"Switzerland","2013","Elites",1
+"Switzerland","2013","Grievance",3.5
+"Sweden","2013","Security",2.2
+"Sweden","2013","Elites",1.8
+"Sweden","2013","Grievance",1
+"Finland","2013","Security",1
+"Finland","2013","Elites",1.1
+"Finland","2013","Grievance",1.4
+"Somalia","2023","Security",9.5
+"Somalia","2023","Elites",10
+"Somalia","2023","Grievance",8.7
+"Yemen","2023","Security",8.6
+"Yemen","2023","Elites",9.9
+"Yemen","2023","Grievance",8.8
+"South Sudan","2023","Security",9.9
+"South Sudan","2023","Elites",9.2
+"South Sudan","2023","Grievance",8.6
+"Congo Democratic Republic","2023","Security",8.8
+"Congo Democratic Republic","2023","Elites",9.6
+"Congo Democratic Republic","2023","Grievance",9.4
+"Syria","2023","Security",9.4
+"Syria","2023","Elites",9.9
+"Syria","2023","Grievance",9.1
+"Afghanistan","2023","Security",9.7
+"Afghanistan","2023","Elites",8.7
+"Afghanistan","2023","Grievance",8.3
+"Sudan","2023","Security",8.3
+"Sudan","2023","Elites",9.6
+"Sudan","2023","Grievance",9.3
+"Central African Republic","2023","Security",8
+"Central African Republic","2023","Elites",9.4
+"Central African Republic","2023","Grievance",8.1
+"Chad","2023","Security",8.7
+"Chad","2023","Elites",9.5
+"Chad","2023","Grievance",8.1
+"Haiti","2023","Security",6.8
+"Haiti","2023","Elites",9.7
+"Haiti","2023","Grievance",5.5
+"Ethiopia","2023","Security",8.6
+"Ethiopia","2023","Elites",9.3
+"Ethiopia","2023","Grievance",8.9
+"Myanmar","2023","Security",9.1
+"Myanmar","2023","Elites",9
+"Myanmar","2023","Grievance",9.7
+"Mali","2023","Security",9.6
+"Mali","2023","Elites",7.2
+"Mali","2023","Grievance",8.5
+"Guinea","2023","Security",8.7
+"Guinea","2023","Elites",10
+"Guinea","2023","Grievance",9.4
+"Nigeria","2023","Security",9
+"Nigeria","2023","Elites",9.6
+"Nigeria","2023","Grievance",8.6
+"Zimbabwe","2023","Security",8.4
+"Zimbabwe","2023","Elites",10
+"Zimbabwe","2023","Grievance",5.9
+"Libya","2023","Security",9.5
+"Libya","2023","Elites",9.3
+"Libya","2023","Grievance",7.3
+"Ukraine","2023","Security",10
+"Ukraine","2023","Elites",8
+"Ukraine","2023","Grievance",6.8
+"Eritrea","2023","Security",6
+"Eritrea","2023","Elites",8.4
+"Eritrea","2023","Grievance",8.7
+"Burundi","2023","Security",7.8
+"Burundi","2023","Elites",8.5
+"Burundi","2023","Grievance",6.7
+"Burkina Faso","2023","Security",9.3
+"Burkina Faso","2023","Elites",8.2
+"Burkina Faso","2023","Grievance",5.8
+"Mozambique","2023","Security",7
+"Mozambique","2023","Elites",6.3
+"Mozambique","2023","Grievance",7.4
+"Cameroon","2023","Security",8.1
+"Cameroon","2023","Elites",9.3
+"Cameroon","2023","Grievance",8.1
+"Niger","2023","Security",8.3
+"Niger","2023","Elites",9.6
+"Niger","2023","Grievance",7.7
+"Lebanon","2023","Security",7.3
+"Lebanon","2023","Elites",9.6
+"Lebanon","2023","Grievance",8.1
+"Uganda","2023","Security",6.3
+"Uganda","2023","Elites",8.9
+"Uganda","2023","Grievance",7.6
+"Iraq","2023","Security",7.5
+"Iraq","2023","Elites",9.6
+"Iraq","2023","Grievance",8
+"Congo Republic","2023","Security",6.4
+"Congo Republic","2023","Elites",6.7
+"Congo Republic","2023","Grievance",8.8
+"Venezuela","2023","Security",6.7
+"Venezuela","2023","Elites",9.4
+"Venezuela","2023","Grievance",6.4
+"Sri Lanka","2023","Security",6.8
+"Sri Lanka","2023","Elites",9.1
+"Sri Lanka","2023","Grievance",8.4
+"Guinea Bissau","2023","Security",7.9
+"Guinea Bissau","2023","Elites",9.9
+"Guinea Bissau","2023","Grievance",3.7
+"Pakistan","2023","Security",7.6
+"Pakistan","2023","Elites",9.3
+"Pakistan","2023","Grievance",9
+"Liberia","2023","Security",6.8
+"Liberia","2023","Elites",8.9
+"Liberia","2023","Grievance",4.6
+"Palestine","2023","Security",7.9
+"Palestine","2023","Elites",8.6
+"Palestine","2023","Grievance",5.8
+"Kenya","2023","Security",6.8
+"Kenya","2023","Elites",8.9
+"Kenya","2023","Grievance",8
+"Cote d'Ivoire","2023","Security",6.6
+"Cote d'Ivoire","2023","Elites",9.9
+"Cote d'Ivoire","2023","Grievance",6.7
+"Mauritania","2023","Security",5.7
+"Mauritania","2023","Elites",8.8
+"Mauritania","2023","Grievance",7.6
+"North Korea","2023","Security",7.4
+"North Korea","2023","Elites",9.2
+"North Korea","2023","Grievance",4.6
+"Angola","2023","Security",6.6
+"Angola","2023","Elites",7.2
+"Angola","2023","Grievance",8.7
+"Iran","2023","Security",7
+"Iran","2023","Elites",9.6
+"Iran","2023","Grievance",9.6
+"Bangladesh","2023","Security",6.8
+"Bangladesh","2023","Elites",9.3
+"Bangladesh","2023","Grievance",8.8
+"Equatorial Guinea","2023","Security",5.9
+"Equatorial Guinea","2023","Elites",8.2
+"Equatorial Guinea","2023","Grievance",7.5
+"Malawi","2023","Security",4.2
+"Malawi","2023","Elites",8.7
+"Malawi","2023","Grievance",4.1
+"Rwanda","2023","Security",5.2
+"Rwanda","2023","Elites",8
+"Rwanda","2023","Grievance",9
+"Comoros","2023","Security",5.6
+"Comoros","2023","Elites",8
+"Comoros","2023","Grievance",4.8
+"Djibouti","2023","Security",5.3
+"Djibouti","2023","Elites",7.3
+"Djibouti","2023","Grievance",5.3
+"Togo","2023","Security",5.8
+"Togo","2023","Elites",7.6
+"Togo","2023","Grievance",6.6
+"Zambia","2023","Security",3.9
+"Zambia","2023","Elites",5.6
+"Zambia","2023","Grievance",5.9
+"Madagascar","2023","Security",5.7
+"Madagascar","2023","Elites",7.8
+"Madagascar","2023","Grievance",3.8
+"Egypt","2023","Security",7
+"Egypt","2023","Elites",9.1
+"Egypt","2023","Grievance",7.7
+"Sierra Leone","2023","Security",3.6
+"Sierra Leone","2023","Elites",7.8
+"Sierra Leone","2023","Grievance",5.4
+"Turkey","2023","Security",6.6
+"Turkey","2023","Elites",8.8
+"Turkey","2023","Grievance",9.5
+"Russia","2023","Security",8.3
+"Russia","2023","Elites",8.4
+"Russia","2023","Grievance",7.8
+"Cambodia","2023","Security",6.4
+"Cambodia","2023","Elites",8.7
+"Cambodia","2023","Grievance",5.5
+"Nepal","2023","Security",5.5
+"Nepal","2023","Elites",8.8
+"Nepal","2023","Grievance",8.8
+"Solomon Islands","2023","Security",5
+"Solomon Islands","2023","Elites",8.7
+"Solomon Islands","2023","Grievance",5.5
+"Honduras","2023","Security",6.8
+"Honduras","2023","Elites",7
+"Honduras","2023","Grievance",4.9
+"Swaziland","2023","Security",4.5
+"Swaziland","2023","Elites",6.8
+"Swaziland","2023","Grievance",2
+"Colombia","2023","Security",6.7
+"Colombia","2023","Elites",7.6
+"Colombia","2023","Grievance",7.3
+"Papua New Guinea","2023","Security",6.5
+"Papua New Guinea","2023","Elites",7.1
+"Papua New Guinea","2023","Grievance",4.5
+"Philippines","2023","Security",9.1
+"Philippines","2023","Elites",8
+"Philippines","2023","Grievance",6.8
+"Nicaragua","2023","Security",5.6
+"Nicaragua","2023","Elites",7.1
+"Nicaragua","2023","Grievance",5.6
+"Timor-Leste","2023","Security",5.6
+"Timor-Leste","2023","Elites",8.3
+"Timor-Leste","2023","Grievance",5
+"Guatemala","2023","Security",6.2
+"Guatemala","2023","Elites",7.1
+"Guatemala","2023","Grievance",9.3
+"Tanzania","2023","Security",4.6
+"Tanzania","2023","Elites",6.5
+"Tanzania","2023","Grievance",5.2
+"Lesotho","2023","Security",5.8
+"Lesotho","2023","Elites",7.3
+"Lesotho","2023","Grievance",3.1
+"Gambia","2023","Security",5.1
+"Gambia","2023","Elites",7.4
+"Gambia","2023","Grievance",2.8
+"Jordan","2023","Security",4.6
+"Jordan","2023","Elites",6.9
+"Jordan","2023","Grievance",8.2
+"Kyrgyz Republic","2023","Security",5.6
+"Kyrgyz Republic","2023","Elites",8.2
+"Kyrgyz Republic","2023","Grievance",7.9
+"Laos","2023","Security",3.9
+"Laos","2023","Elites",8.3
+"Laos","2023","Grievance",7.2
+"Brazil","2023","Security",6.2
+"Brazil","2023","Elites",6.5
+"Brazil","2023","Grievance",7.5
+"Tajikistan","2023","Security",5.5
+"Tajikistan","2023","Elites",8.4
+"Tajikistan","2023","Grievance",6.7
+"India","2023","Security",6
+"India","2023","Elites",7.3
+"India","2023","Grievance",8.1
+"Benin","2023","Security",5.2
+"Benin","2023","Elites",6.7
+"Benin","2023","Grievance",2.6
+"Peru","2023","Security",6
+"Peru","2023","Elites",8.4
+"Peru","2023","Grievance",8
+"Azerbaijan","2023","Security",5.8
+"Azerbaijan","2023","Elites",7.9
+"Azerbaijan","2023","Grievance",5.9
+"Bosnia and Herzegovina","2023","Security",4.4
+"Bosnia and Herzegovina","2023","Elites",8.7
+"Bosnia and Herzegovina","2023","Grievance",6.4
+"South Africa","2023","Security",6.6
+"South Africa","2023","Elites",6.8
+"South Africa","2023","Grievance",6
+"Georgia","2023","Security",5
+"Georgia","2023","Elites",8.8
+"Georgia","2023","Grievance",7.1
+"Senegal","2023","Security",4.5
+"Senegal","2023","Elites",7
+"Senegal","2023","Grievance",5
+"Bolivia","2023","Security",5.3
+"Bolivia","2023","Elites",8.2
+"Bolivia","2023","Grievance",6.4
+"Fiji","2023","Security",6.4
+"Fiji","2023","Elites",8.2
+"Fiji","2023","Grievance",5.4
+"Algeria","2023","Security",5.8
+"Algeria","2023","Elites",6.9
+"Algeria","2023","Grievance",7
+"Belarus","2023","Security",5.4
+"Belarus","2023","Elites",9.6
+"Belarus","2023","Grievance",5.3
+"Mexico","2023","Security",8.3
+"Mexico","2023","Elites",5.9
+"Mexico","2023","Grievance",6.1
+"Sao Tome and Principe","2023","Security",4.1
+"Sao Tome and Principe","2023","Elites",6.3
+"Sao Tome and Principe","2023","Grievance",4.2
+"Ecuador","2023","Security",6
+"Ecuador","2023","Elites",8.2
+"Ecuador","2023","Grievance",5.9
+"Micronesia","2023","Security",3.1
+"Micronesia","2023","Elites",5.6
+"Micronesia","2023","Grievance",3.7
+"El Salvador","2023","Security",6
+"El Salvador","2023","Elites",4.8
+"El Salvador","2023","Grievance",5.3
+"Morocco","2023","Security",4.3
+"Morocco","2023","Elites",6.6
+"Morocco","2023","Grievance",8.3
+"Thailand","2023","Security",8
+"Thailand","2023","Elites",9.7
+"Thailand","2023","Grievance",7.1
+"Serbia","2023","Security",3.9
+"Serbia","2023","Elites",8.6
+"Serbia","2023","Grievance",7.8
+"Armenia","2023","Security",5.7
+"Armenia","2023","Elites",6.4
+"Armenia","2023","Grievance",5.9
+"Moldova","2023","Security",4.5
+"Moldova","2023","Elites",7.8
+"Moldova","2023","Grievance",5.8
+"Uzbekistan","2023","Security",5.6
+"Uzbekistan","2023","Elites",8.8
+"Uzbekistan","2023","Grievance",5.4
+"Bhutan","2023","Security",2.7
+"Bhutan","2023","Elites",7.5
+"Bhutan","2023","Grievance",9.7
+"Tunisia","2023","Security",6.9
+"Tunisia","2023","Elites",7.5
+"Tunisia","2023","Grievance",6.9
+"Indonesia","2023","Security",5.2
+"Indonesia","2023","Elites",7.1
+"Indonesia","2023","Grievance",6.9
+"Gabon","2023","Security",4.2
+"Gabon","2023","Elites",7.7
+"Gabon","2023","Grievance",3.1
+"Saudi Arabia","2023","Security",5.1
+"Saudi Arabia","2023","Elites",8.5
+"Saudi Arabia","2023","Grievance",9.5
+"Samoa","2023","Security",3.6
+"Samoa","2023","Elites",5.1
+"Samoa","2023","Grievance",5.1
+"Bahrain","2023","Security",5.3
+"Bahrain","2023","Elites",7.6
+"Bahrain","2023","Grievance",9.5
+"China","2023","Security",4.9
+"China","2023","Elites",7.2
+"China","2023","Grievance",6.5
+"Turkmenistan","2023","Security",4.5
+"Turkmenistan","2023","Elites",7.8
+"Turkmenistan","2023","Grievance",5.3
+"Paraguay","2023","Security",5.7
+"Paraguay","2023","Elites",7.8
+"Paraguay","2023","Grievance",4.7
+"Maldives","2023","Security",4.9
+"Maldives","2023","Elites",8.1
+"Maldives","2023","Grievance",3.4
+"Ghana","2023","Security",4
+"Ghana","2023","Elites",5.9
+"Ghana","2023","Grievance",3
+"Jamaica","2023","Security",7
+"Jamaica","2023","Elites",3.7
+"Jamaica","2023","Grievance",1.6
+"Guyana","2023","Security",6.5
+"Guyana","2023","Elites",4.8
+"Guyana","2023","Grievance",5.9
+"Dominican Republic","2023","Security",5.5
+"Dominican Republic","2023","Elites",6.2
+"Dominican Republic","2023","Grievance",4.6
+"Kazakhstan","2023","Security",4
+"Kazakhstan","2023","Elites",7.9
+"Kazakhstan","2023","Grievance",7.4
+"Namibia","2023","Security",4.2
+"Namibia","2023","Elites",3.5
+"Namibia","2023","Grievance",4.2
+"Macedonia","2023","Security",4.1
+"Macedonia","2023","Elites",7.3
+"Macedonia","2023","Grievance",5.4
+"Cape Verde","2023","Security",4.2
+"Cape Verde","2023","Elites",5.5
+"Cape Verde","2023","Grievance",2.4
+"Belize","2023","Security",6.8
+"Belize","2023","Elites",4.3
+"Belize","2023","Grievance",4.7
+"Suriname","2023","Security",3.4
+"Suriname","2023","Elites",5.8
+"Suriname","2023","Grievance",7
+"Cuba","2023","Security",3.4
+"Cuba","2023","Elites",7
+"Cuba","2023","Grievance",2.2
+"Vietnam","2023","Security",3.5
+"Vietnam","2023","Elites",6.9
+"Vietnam","2023","Grievance",4.8
+"Montenegro","2023","Security",4
+"Montenegro","2023","Elites",6.5
+"Montenegro","2023","Grievance",9.3
+"Cyprus","2023","Security",2.9
+"Cyprus","2023","Elites",7.9
+"Cyprus","2023","Grievance",4.5
+"Albania","2023","Security",4.8
+"Albania","2023","Elites",6.2
+"Albania","2023","Grievance",3.5
+"Botswana","2023","Security",3.4
+"Botswana","2023","Elites",3.3
+"Botswana","2023","Grievance",3.7
+"Greece","2023","Security",3.3
+"Greece","2023","Elites",4.1
+"Greece","2023","Grievance",4
+"Malaysia","2023","Security",4.8
+"Malaysia","2023","Elites",6.8
+"Malaysia","2023","Grievance",4.8
+"Brunei Darussalam","2023","Security",3.9
+"Brunei Darussalam","2023","Elites",7.4
+"Brunei Darussalam","2023","Grievance",7.1
+"Antigua and Barbuda","2023","Security",4.9
+"Antigua and Barbuda","2023","Elites",3.7
+"Antigua and Barbuda","2023","Grievance",3.6
+"Grenada","2023","Security",4.8
+"Grenada","2023","Elites",5.6
+"Grenada","2023","Grievance",3.6
+"Seychelles","2023","Security",5.2
+"Seychelles","2023","Elites",6
+"Seychelles","2023","Grievance",3.9
+"Romania","2023","Security",1.9
+"Romania","2023","Elites",5.7
+"Romania","2023","Grievance",5.4
+"Trinidad and Tobago","2023","Security",7.3
+"Trinidad and Tobago","2023","Elites",5.6
+"Trinidad and Tobago","2023","Grievance",3.4
+"Bulgaria","2023","Security",4.1
+"Bulgaria","2023","Elites",5.3
+"Bulgaria","2023","Grievance",4
+"Mongolia","2023","Security",2.9
+"Mongolia","2023","Elites",5.5
+"Mongolia","2023","Grievance",2.3
+"Kuwait","2023","Security",2.4
+"Kuwait","2023","Elites",7.5
+"Kuwait","2023","Grievance",4.7
+"Bahamas","2023","Security",4.3
+"Bahamas","2023","Elites",4.5
+"Bahamas","2023","Grievance",2.3
+"Hungary","2023","Security",1.8
+"Hungary","2023","Elites",5.3
+"Hungary","2023","Grievance",3.3
+"Panama","2023","Security",4.6
+"Panama","2023","Elites",2.7
+"Panama","2023","Grievance",6.2
+"Oman","2023","Security",2.4
+"Oman","2023","Elites",6.6
+"Oman","2023","Grievance",2.9
+"Croatia","2023","Security",2
+"Croatia","2023","Elites",4.4
+"Croatia","2023","Grievance",4.3
+"Argentina","2023","Security",4.3
+"Argentina","2023","Elites",2.8
+"Argentina","2023","Grievance",3.2
+"Barbados","2023","Security",4.4
+"Barbados","2023","Elites",4.2
+"Barbados","2023","Grievance",2.3
+"United States","2023","Security",4.7
+"United States","2023","Elites",7.3
+"United States","2023","Grievance",6.5
+"Poland","2023","Security",1.8
+"Poland","2023","Elites",4.2
+"Poland","2023","Grievance",5
+"Israel","2023","Security",2.6
+"Israel","2023","Elites",8.3
+"Israel","2023","Grievance",7.1
+"Spain","2023","Security",2.8
+"Spain","2023","Elites",6.9
+"Spain","2023","Grievance",7.3
+"Latvia","2023","Security",2
+"Latvia","2023","Elites",4.3
+"Latvia","2023","Grievance",7.7
+"Italy","2023","Security",4.5
+"Italy","2023","Elites",4.9
+"Italy","2023","Grievance",3.7
+"Chile","2023","Security",3.6
+"Chile","2023","Elites",2.2
+"Chile","2023","Grievance",3.8
+"United Kingdom","2023","Security",2.9
+"United Kingdom","2023","Elites",5.8
+"United Kingdom","2023","Grievance",6.1
+"Qatar","2023","Security",1
+"Qatar","2023","Elites",5
+"Qatar","2023","Grievance",2.8
+"Costa Rica","2023","Security",2.9
+"Costa Rica","2023","Elites",3.8
+"Costa Rica","2023","Grievance",2.4
+"Czech Republic","2023","Security",2
+"Czech Republic","2023","Elites",5.3
+"Czech Republic","2023","Grievance",4
+"Lithuania","2023","Security",2.2
+"Lithuania","2023","Elites",3
+"Lithuania","2023","Grievance",2.7
+"Estonia","2023","Security",1.7
+"Estonia","2023","Elites",5.8
+"Estonia","2023","Grievance",6.8
+"Mauritius","2023","Security",1
+"Mauritius","2023","Elites",3.1
+"Mauritius","2023","Grievance",5
+"Slovak Republic","2023","Security",1.2
+"Slovak Republic","2023","Elites",4.7
+"Slovak Republic","2023","Grievance",5.5
+"United Arab Emirates","2023","Security",2.3
+"United Arab Emirates","2023","Elites",3.6
+"United Arab Emirates","2023","Grievance",2.2
+"Uruguay","2023","Security",3.6
+"Uruguay","2023","Elites",2.7
+"Uruguay","2023","Grievance",2.3
+"Malta","2023","Security",1.8
+"Malta","2023","Elites",2
+"Malta","2023","Grievance",2.1
+"South Korea","2023","Security",1.5
+"South Korea","2023","Elites",3.9
+"South Korea","2023","Grievance",2.8
+"Belgium","2023","Security",2.4
+"Belgium","2023","Elites",4.4
+"Belgium","2023","Grievance",3.5
+"Japan","2023","Security",1.5
+"Japan","2023","Elites",2.6
+"Japan","2023","Grievance",1.9
+"France","2023","Security",2.9
+"France","2023","Elites",1.9
+"France","2023","Grievance",6.4
+"Slovenia","2023","Security",0.3
+"Slovenia","2023","Elites",2
+"Slovenia","2023","Grievance",3
+"Portugal","2023","Security",0.3
+"Portugal","2023","Elites",2.5
+"Portugal","2023","Grievance",0.7
+"Singapore","2023","Security",0.4
+"Singapore","2023","Elites",4
+"Singapore","2023","Grievance",2.8
+"Germany","2023","Security",2.3
+"Germany","2023","Elites",2.3
+"Germany","2023","Grievance",3.4
+"Austria","2023","Security",1.4
+"Austria","2023","Elites",3.2
+"Austria","2023","Grievance",3.3
+"Australia","2023","Security",2.1
+"Australia","2023","Elites",1.7
+"Australia","2023","Grievance",2.9
+"Netherlands","2023","Security",1.8
+"Netherlands","2023","Elites",3.4
+"Netherlands","2023","Grievance",3
+"Sweden","2023","Security",2.1
+"Sweden","2023","Elites",1.8
+"Sweden","2023","Grievance",2.3
+"Luxembourg","2023","Security",0.4
+"Luxembourg","2023","Elites",3.4
+"Luxembourg","2023","Grievance",1.5
+"Ireland","2023","Security",2.1
+"Ireland","2023","Elites",1.5
+"Ireland","2023","Grievance",0.5
+"Canada","2023","Security",2.2
+"Canada","2023","Elites",2.5
+"Canada","2023","Grievance",2
+"Denmark","2023","Security",1.1
+"Denmark","2023","Elites",1.4
+"Denmark","2023","Grievance",3.1
+"Switzerland","2023","Security",1.4
+"Switzerland","2023","Elites",1
+"Switzerland","2023","Grievance",2.1
+"New Zealand","2023","Security",1.6
+"New Zealand","2023","Elites",1.4
+"New Zealand","2023","Grievance",2
+"Finland","2023","Security",2
+"Finland","2023","Elites",1.4
+"Finland","2023","Grievance",0.3
+"Iceland","2023","Security",0.4
+"Iceland","2023","Elites",1.8
+"Iceland","2023","Grievance",0.5
+"Norway","2023","Security",1.4
+"Norway","2023","Elites",1.1
+"Norway","2023","Grievance",3.1
