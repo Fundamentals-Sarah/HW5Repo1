@@ -337,56 +337,189 @@ YearsCombined$Rank <- as.integer(gsub("[^0-9-]", "", YearsCombined$Rank))
 #I check that my change applied correctly. I also confirm that Year is correctly identified as integer.
 str(YearsCombined)
 ```
+```{r}
+#I save my fully cleaned dataset as an RDS file. 
+saveRDS(YearsCombinedClean,"YearsCombined.RDS")
+```
 
-```{r call_ggplot2, eval=TRUE, echo=TRUE, message=FALSE}
-#Now I'm ready to start analyzing my 2006-2023 data. I want to plot the 'Total' Variable per year, using boxplots in ggplot2. I need to install ggplot2. 
+```{r}
+#I name my file and ensure it is pulled in correctly in the RDS format
+YearsCombinedRDS=readRDS("YearsCombined.RDS")
+str(YearsCombinedRDS)
+```
+```{r}
+#I save my cleaned file as a csv
+write.csv(YearsCombined,"YearsCombined.csv", row.names=FALSE)
+YearsCombinedCSV=read.csv("YearsCombined.csv")
+```
+
+```{r}
+#I check that the cleaned csv can be read in correctly
+str(YearsCombinedCSV)
+```
+```{r}
+#I create a subset of YearsCombined. 
+Combined_subset <- YearsCombined
+```
+
+
+```{r}
+#I drop all columns that don't relate to my boxplot parameters.
+Combined_subset <- Combined_subset[, c(1,2,4)]
+```
+
+```{r}
+str(Combined_subset)
+```
+```{r}
+Combined_subset$Year <- factor(Combined_subset$Year)
+```
+
+```{r}
+str(Combined_subset)
+```
+
+```{r}
+#I install packages. 
+install.packages("ggplot2") 
+```
+
+```{r}
 library(ggplot2)
 ```
 
-```{r gg_base, eval=TRUE, echo=TRUE, message=FALSE}
+```{r}
+ggplot
+```
+
+```{r gg_base, eval=TRUE, echo=FALSE, message=FALSE}
 #I tell ggplot the data I will want to use. 
-base=ggplot(data=YearsCombined)
+base=ggplot(data=Combined_subset)
 ```
 
-```{r gg_geom_aes, eval=TRUE, echo=FALSE, message=FALSE}
+```{r byyear, eval=TRUE, echo=FALSE, message=FALSE}
 #I add the geom. 
-base + geom_boxplot(aes(x=Total, y=Year))
+base + geom_boxplot(aes(x=Year, y=Total))
+```
+
+```{r text_forplot, eval=TRUE, echo=FALSE, message=FALSE}
+#I generate and assign a title, subtitle, and caption to my boxplot.
+theTitle='Fragility Index Total Per Year'
+theSubtitle='All countries, 2006-2023'
+theCaption=paste("Source:Fragile States Index, The Fund for Peace")
+
+box=base + geom_boxplot(aes(x=Year, y=Total))
+box + labs(title=theTitle,
+           subtitle=theSubtitle,
+           caption = theCaption,
+           x='Year')
 ```
 
 ```{r}
-#For the next exercise, I want only 2013 and 2023 data. I combine these two datasets
-TwoYearsCombined <- rbind(YearEight_noNA, YearEighteen)
+#  make a copy of Years Combined.
+subset <- YearsCombined
 ```
 
 ```{r}
-#I confirm it appears as expected. 
-str(TwoYearsCombined)
+#I check the names of the columns.
+names(subset)
+```
+```{r}
+#I keep only those columns with information.
+subset<- subset[, c(1,2,5,6,7)]
 ```
 
 ```{r}
-#I check column names in TwoYearsCombined.
-names(TwoYearsCombined)
+#I rename columns to be easier to work with. 
+names(subset)[1]<- "Country"
+names(subset)[2]<- "Year"
+names(subset)[3]<- "Security"
+names(subset)[4]<- "Elites"
+names(subset)[5]<- "Grievance"
 ```
 
 ```{r}
-#I remove many of the columns I do not need
-TwoYearsCombined_clean <- TwoYearsCombined[ , -c(8,9,10,11,12,13,14,15,16)]
+#I limit the data to 2013.
+subset_2013 <- subset[subset$Year==2013, c('Country', 'Security',	'Elites',	'Grievance')]
 ```
 
 ```{r}
-#I confirm my subset.
-str(TwoYearsCombined_clean)
+#I examine my subset of 2013 data. 
+str(subset_2013)
+```
+
+```{r}
+subset_2013_long=tidyr::pivot_longer(subset_2013,
+                                       !Country,
+                                       names_to = "var",
+                                       values_to = "index")
+subset_2013_long
+```
+
+```{r}
+#I also limit the data to 2023.
+subset_2023 <- subset[subset$Year==2023, c('Country', 'Security',	'Elites',	'Grievance')]
+```
+
+```{r}
+#I examine my subset of 2023 data. 
+str(subset_2023)
+```
+
+```{r}
+subset_2023_long=tidyr::pivot_longer(subset_2023,
+                                       !Country,
+                                       names_to = "var",
+                                       values_to = "index")
+subset_2023_long
+```
+
+```{r}
+#I install packages. 
+install.packages("ggplot2") 
+```
+
+```{r}
+library(ggplot2)
+```
+
+
+```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
+#I generate the histograms for C1, C2, and C3 for 2013 data.
+base2 = ggplot(data=subset_2013_long)
+base2 + geom_histogram(aes(x=index),bins=10) +
+                         facet_wrap(var~., scales = "free", ncol=1)
+```
+
+```{r text_forhisto, eval=TRUE, echo=FALSE, message=FALSE}
+#I generate and assign a title, subtitle, and caption to my 2013 histograms.
+theTitle2='Security, Elite and Grievance Measures'
+theSubtitle2='All Countries in 2013'
+theCaption2=paste("Source:CIA Fragility Index")
+
+box2=base2 + geom_histogram(aes(x=index,bins=10))
+box2 + labs(title=theTitle2,
+           subtitle=theSubtitle2,
+           caption = theCaption2,
+           x='var')
 ```
 
 ```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
-#I apply faceting.  
-base2=ggplot(data=TwoYearsCombined_clean)
-base2 + geom_histogram(aes(x=Year), bins=10) +
-  facet_wrap(vars~., scales = "Free", ncol=1)
+#I generate the histograms for C1, C2 and C3 for 2023 data.
+base3 = ggplot(data=subset_2023_long)
+base3 + geom_histogram(aes(x=index),bins=10) +
+                         facet_wrap(var~., scales = "free", ncol=1)
 ```
 
+```{r text_forhisto2, eval=TRUE, echo=FALSE, message=FALSE}
+#I generate and assign a title, subtitle, and caption to my 2023 histograms.
+theTitle3='Security, Elite and Grievance Measures'
+theSubtitle3='All Countries in 2023'
+theCaption3=paste("Source:CIA Fragility Index")
 
-
-In all plots, add all the text needed to explain the visual result.
-
-On Github, publish the code and the output file. Publish the code using GitHub pages. The last week reinforced how to publish, it is not only create html on RStudio. Follow the steps shared on the previous session.
+box3=base3 + geom_histogram(aes(x=index,bins=10))
+box3 + labs(title=theTitle3,
+           subtitle=theSubtitle3,
+           caption = theCaption3,
+           x='var')
+```
