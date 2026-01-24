@@ -1978,7 +1978,7 @@ install.packages(&quot;ggplot2&quot;)</code></pre>
 <pre><code>## package &#39;ggplot2&#39; successfully unpacked and MD5 sums checked
 ## 
 ## The downloaded binary packages are in
-##  C:\Users\sarah\AppData\Local\Temp\RtmpKoO4QW\downloaded_packages</code></pre>
+##  C:\Users\sarah\AppData\Local\Temp\RtmpyOHMIG\downloaded_packages</code></pre>
 <pre class="r"><code>#I load ggplot library.
 library(ggplot2)</code></pre>
 <pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 4.5.2</code></pre>
@@ -2048,7 +2048,7 @@ TwoYears_long</code></pre>
   </script>
 </div>
 <pre class="r"><code>#I tried to generate the histograms for C1, C2, and C3 for 2013 and 2023 data, but could not. There, I&#39;m exporting my file as a RDS and CVS and showing the code I tried below.
-#{r}facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
+#{r}facets_free_histo, eval=TRUE, echo=TRUE, message=FALSE}
 #base2 = ggplot(data=TwoYears_long)
 #base2 + geom_histogram(aes(x=index),bins=10) +
                          #facet_wrap(var~., scales = &quot;free&quot;, ncol=1)</code></pre>
