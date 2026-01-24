@@ -339,7 +339,7 @@ str(YearsCombined)
 ```
 ```{r}
 #I save my fully cleaned dataset as an RDS file. 
-saveRDS(YearsCombinedClean,"YearsCombined.RDS")
+saveRDS(YearsCombined,"YearsCombined.RDS")
 ```
 
 ```{r}
@@ -378,18 +378,9 @@ Combined_subset$Year <- factor(Combined_subset$Year)
 ```{r}
 str(Combined_subset)
 ```
-
 ```{r}
-#I install packages. 
-install.packages("ggplot2") 
-```
-
-```{r}
+install.packages("ggplot2")
 library(ggplot2)
-```
-
-```{r}
-ggplot
 ```
 
 ```{r gg_base, eval=TRUE, echo=FALSE, message=FALSE}
@@ -416,110 +407,94 @@ box + labs(title=theTitle,
 ```
 
 ```{r}
-#  make a copy of Years Combined.
-subset <- YearsCombined
+#I combine 2013 and 2023 data.
+TwoYears <- rbind(YearEight_noNA,YearEighteen)
 ```
 
 ```{r}
 #I check the names of the columns.
-names(subset)
+names(TwoYears)
 ```
 ```{r}
 #I keep only those columns with information.
-subset<- subset[, c(1,2,5,6,7)]
+TwoYears_subset<- TwoYears[, c(1,2,5,6,7)]
 ```
 
 ```{r}
 #I rename columns to be easier to work with. 
-names(subset)[1]<- "Country"
-names(subset)[2]<- "Year"
-names(subset)[3]<- "Security"
-names(subset)[4]<- "Elites"
-names(subset)[5]<- "Grievance"
+names(TwoYears_subset)[1]<- "Country"
+names(TwoYears_subset)[2]<- "Year"
+names(TwoYears_subset)[3]<- "Security"
+names(TwoYears_subset)[4]<- "Elites"
+names(TwoYears_subset)[5]<- "Grievance"
+```
+
+
+```{r}
+#I examine my subset of 2013 and 2023 data. 
+str(TwoYears_subset)
+```
+```{r}
+#I assign the Year variable to be a factor, not integer.
+TwoYears_subset$Year <- factor(TwoYears_subset$Year)
 ```
 
 ```{r}
-#I limit the data to 2013.
-subset_2013 <- subset[subset$Year==2013, c('Country', 'Security',	'Elites',	'Grievance')]
+#I check it. 
+str(TwoYears_subset)
 ```
 
-```{r}
-#I examine my subset of 2013 data. 
-str(subset_2013)
-```
 
 ```{r}
-subset_2013_long=tidyr::pivot_longer(subset_2013,
-                                       !Country,
+TwoYears_long=tidyr::pivot_longer(TwoYears_subset,
+                                       cols = c(Security, Elites, Grievance),
                                        names_to = "var",
                                        values_to = "index")
-subset_2013_long
+TwoYears_long
+```
+
+
+```{r}
+#I tried to generate the histograms for C1, C2, and C3 for 2013 and 2023 data, but could not. There, I'm exporting my file as a RDS and CVS and showing the code I tried below.
+#{r}facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
+#base2 = ggplot(data=TwoYears_long)
+#base2 + geom_histogram(aes(x=index),bins=10) +
+                         #facet_wrap(var~., scales = "free", ncol=1)
 ```
 
 ```{r}
-#I also limit the data to 2023.
-subset_2023 <- subset[subset$Year==2023, c('Country', 'Security',	'Elites',	'Grievance')]
+#I save my fully cleaned dataset as an RDS file. 
+saveRDS(TwoYears_long,"TwoYearsLong.RDS")
 ```
 
 ```{r}
-#I examine my subset of 2023 data. 
-str(subset_2023)
+#I name my file and ensure it is pulled in correctly in the RDS format
+TwoYearsLongRDS=readRDS("TwoYearsLong.RDS")
+str(TwoYearsLongRDS)
 ```
 
 ```{r}
-subset_2023_long=tidyr::pivot_longer(subset_2023,
-                                       !Country,
-                                       names_to = "var",
-                                       values_to = "index")
-subset_2023_long
+#I save my cleaned file as a csv
+write.csv(TwoYears_long,"TwoYearsLong.csv", row.names=FALSE)
+TwoYearsLongCSV=read.csv("TwoYearsLong.csv")
 ```
 
 ```{r}
-#I install packages. 
-install.packages("ggplot2") 
+#I check that the cleaned csv can be read in correctly
+str(TwoYearsLongCSV)
 ```
 
 ```{r}
-library(ggplot2)
-```
+#I also try limiting the data to one year. 
+long_2013=TwoYears_long[TwoYears_long$Year==2013,c('Country','var', 'index')]
 
+long_2013
 
-```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
-#I generate the histograms for C1, C2, and C3 for 2013 data.
-base2 = ggplot(data=subset_2013_long)
-base2 + geom_histogram(aes(x=index),bins=10) +
-                         facet_wrap(var~., scales = "free", ncol=1)
-```
-
-```{r text_forhisto, eval=TRUE, echo=FALSE, message=FALSE}
-#I generate and assign a title, subtitle, and caption to my 2013 histograms.
-theTitle2='Security, Elite and Grievance Measures'
-theSubtitle2='All Countries in 2013'
-theCaption2=paste("Source:CIA Fragility Index")
-
-box2=base2 + geom_histogram(aes(x=index,bins=10))
-box2 + labs(title=theTitle2,
-           subtitle=theSubtitle2,
-           caption = theCaption2,
-           x='var')
 ```
 
 ```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
-#I generate the histograms for C1, C2 and C3 for 2023 data.
-base3 = ggplot(data=subset_2023_long)
-base3 + geom_histogram(aes(x=index),bins=10) +
-                         facet_wrap(var~., scales = "free", ncol=1)
-```
-
-```{r text_forhisto2, eval=TRUE, echo=FALSE, message=FALSE}
-#I generate and assign a title, subtitle, and caption to my 2023 histograms.
-theTitle3='Security, Elite and Grievance Measures'
-theSubtitle3='All Countries in 2023'
-theCaption3=paste("Source:CIA Fragility Index")
-
-box3=base3 + geom_histogram(aes(x=index,bins=10))
-box3 + labs(title=theTitle3,
-           subtitle=theSubtitle3,
-           caption = theCaption3,
-           x='var')
+#I tried again, just using 2013 data, this also did not work.
+#base3 = ggplot(data=long_2013)
+#base3 + geom_histogram(aes(x=index),bins=10) +
+                        #facet_wrap(var~., scales = "free", ncol=1)
 ```
