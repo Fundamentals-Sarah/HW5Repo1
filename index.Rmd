@@ -474,12 +474,11 @@ TwoYears_long
 ```
 
 
-```{r}
-#I tried to generate the histograms for C1, C2, and C3 for 2013 and 2023 data, but could not. There, I'm exporting my file as a RDS and CVS and showing the code I tried below.
-#{r}facets_free_histo, eval=TRUE, echo=TRUE, message=FALSE}
+```{r facets_free_histo, eval=TRUE, echo=TRUE, message=FALSE}
+#I tried to generate the histograms for C1, C2, and C3 for 2013 and 2023 data, but could not - I receive an error that object "ffi_list2" is not found. There, I'm exporting my file as a RDS and CVS and showing the code I tried below.
 #base2 = ggplot(data=TwoYears_long)
 #base2 + geom_histogram(aes(x=index),bins=10) +
-                         #facet_wrap(var~., scales = "free", ncol=1)
+                   #facet_wrap(var ~ Year)
 ```
 
 ```{r}
@@ -512,9 +511,10 @@ long_2013
 
 ```
 
-```{r facets_free_histo, eval=TRUE, echo=FALSE, message=FALSE}
-#I tried again, just using 2013 data, this also did not work.
+```{r}
+#facets_free_histo, eval=TRUE, echo=TRUE, message=FALSE}
+#I tried again, just using 2013 data, this also did not work. I get the same error - object ffi_list2 is not found.
 #base3 = ggplot(data=long_2013)
 #base3 + geom_histogram(aes(x=index),bins=10) +
-                        #facet_wrap(var~., scales = "free", ncol=1)
+                        #facet_wrap(var ~ Year)
 ```
